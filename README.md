@@ -1,14 +1,21 @@
 Bingo Game - C Implementation
+
+
 Overview
+
+
 This project is a simple text-based Bingo game implemented in C. The game generates a 5x5 Bingo card for the player, with a free space in the center. Numbers are called randomly from 1 to 75, and the player marks their card if they have the number. The game ends when the player wins by filling a row, column, or diagonal.
 
 Features
+
 Random Bingo Card Generation: The game automatically generates a unique 5x5 Bingo card for the player, with numbers falling within the standard Bingo range (B: 1-15, I: 16-30, N: 31-45, G: 46-60, O: 61-75).
 Random Number Calling: The program randomly selects a number between 1 and 75 that has not yet been called.
 Marking Numbers: The player is asked if they have the called number on their card. If they have it, the number is marked (set to 0).
 Win Detection: The game checks for a win after each number is marked. The player wins when they have a full row, column, or diagonal of marked numbers (all zeros).
 Game Ends on Win: The game will automatically stop when the player has a completed row, column, or diagonal.
+
 How to Play
+
 Start the game: When you run the program, it will generate a random Bingo card for you. The center space (N column, 3rd row) is a free space and is marked automatically.
 
 Random number calling: The game will start calling numbers from 1 to 75. The player will be prompted with the called number and asked whether they have the number on their card.
@@ -24,6 +31,7 @@ End game: The game will end once a win condition is met or when all 75 numbers h
 
 How to Compile and Run
 Requirements:
+
 A C compiler (such as gcc).
 Basic understanding of running programs via the command line or terminal.
 Steps:
